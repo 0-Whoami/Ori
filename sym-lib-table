@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Ori_Components")(type "KiCad")(uri "${KIPRJMOD}/Ori_Components.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,117 @@
+(footprint "4 pin WLCPS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d270fc19-cf13-4244-8fa8-fb7be0d03bf8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "4 pin WLCPS"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d260741a-d737-4308-96e0-08cddef9e64c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "167bf02e-5e0d-42db-b1eb-5779d0bd68b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "118695eb-fa1b-4d95-8aeb-526f22a5e290")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.4 -0.4)
+		(end 0.4 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a6b98886-77eb-4ef3-8717-7c863f9ac67d")
+	)
+	(fp_rect
+		(start -0.4 -0.4)
+		(end 0.4 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "63bd004b-f1e2-4835-a799-aac320b1a95b")
+	)
+	(pad "A1" smd circle
+		(at 0.2 0.2)
+		(size 0.21 0.21)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8c66aef2-e799-494e-bbad-978cb805f188")
+	)
+	(pad "A2" smd circle
+		(at -0.2 0.2)
+		(size 0.21 0.21)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca9c1d85-2910-4ba0-8309-bbcf841eba98")
+	)
+	(pad "B1" smd circle
+		(at 0.2 -0.2)
+		(size 0.21 0.21)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d16cdf48-dff8-4d47-b4eb-a85f293c0aca")
+	)
+	(pad "B2" smd circle
+		(at -0.2 -0.2)
+		(size 0.21 0.21)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6735da4e-d7b9-4079-8f75-e762e2348ef4")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Rohit Paul/Documents/cad/WLPSP4-Body001.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
