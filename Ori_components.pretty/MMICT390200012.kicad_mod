@@ -1,0 +1,107 @@
+(footprint "MMICT390200012"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "828b02dd-52a9-4f0b-9b48-83001609f1ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MMICT390200012"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a50057e5-3853-4e6b-9252-47a7ea3a5227")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0242ab51-2f35-40db-bab8-de93d17c1f4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e0a12c8-0354-4d27-89f5-d45b5ba9a303")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -1.31275 -0.8375)
+		(size 0.522 0.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "40e37ea2-51e9-407f-a315-abc2a6ce6419")
+	)
+	(pad "2" smd rect
+		(at -0.49075 -0.8375)
+		(size 0.522 0.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "31100938-0143-40af-9314-e47175a0b711")
+	)
+	(pad "3" smd custom
+		(at 0.76125 0.6625)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center 0 -0.6625)
+				(end 0.6625 -0.6625)
+				(width 0.3)
+				(fill no)
+			)
+		)
+		(uuid "25519711-6d33-4434-93b1-735c34a3903b")
+	)
+	(pad "4" smd rect
+		(at -0.49075 0.8375)
+		(size 0.522 0.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b40655a7-ed76-4fef-8b75-79563becf4f0")
+	)
+	(pad "5" smd rect
+		(at -1.31275 0.8375)
+		(size 0.522 0.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b6bde70c-8169-486f-8b4f-82499c6acef7")
+	)
+	(embedded_fonts no)
+)
